@@ -131,7 +131,7 @@ path(){
 	if [[ $red_path == 1 || $red_path == 01 ]]; then
 		path=$'./htdocs'
 	elif [[ $red_path == 2 || $red_path == 02 ]]; then
-		printf "\n${RS} ${CC}Enter File Path [Example : /home/Varun/htdocs]"
+		printf "\n${RS} ${CC}Enter File Path [Example : /home/apn7-tv/htdocs]"
 		printf "\n${RS}"
 		printf "\n${RS} ${CR}>>${CG} ${CC}"
 		read path
